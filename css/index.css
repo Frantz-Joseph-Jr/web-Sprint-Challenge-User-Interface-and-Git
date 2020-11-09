@@ -70,6 +70,26 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.header {
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0px;
+    }
+.nav-wrap {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    }
+
+.nav-wrap nav {
+    justify-content: space-evenly;
+}
+.nav-wrap nav a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px; 
+     margin: 0 25px;
+}
 
 .top-content {
     display: flex;
